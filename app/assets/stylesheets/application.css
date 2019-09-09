@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @font-face {
+    font-family: 'Butler Stencil';
+    src: url('ButlerStencil-Medium.woff2') format('woff2'),
+        url('ButlerStencil-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil XXS';
+    src: url('ButlerStencil.woff2') format('woff2'),
+        url('ButlerStencil.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil XS';
+    src: url('ButlerStencil-ExtraBold.woff2') format('woff2'),
+        url('ButlerStencil-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil S';
+    src: url('ButlerStencil-Black.woff2') format('woff2'),
+        url('ButlerStencil-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil M';
+    src: url('ButlerStencil-UltraLight.woff2') format('woff2'),
+        url('ButlerStencil-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil L';
+    src: url('ButlerStencil-Bold.woff2') format('woff2'),
+        url('ButlerStencil-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler Stencil XL';
+    src: url('ButlerStencil-Light.woff2') format('woff2'),
+        url('ButlerStencil-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.ttf') format('truetype'),
+         url('bebasneue-regular-webfont.woff') format('woff'),
+         url('bebasneue-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('bebasneue-book-webfont.ttf') format('truetype'),
+         url('bebasneue-book-webfont.woff') format('woff'),
+         url('bebasneue-book-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue-bold-webfont.ttf') format('truetype'),
+         url('bebasneue-bold-webfont.woff') format('woff'),
+         url('bebasneue-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-dark{
+    opacity: 0.87;
+}
+
+ .nav-list {
+ 	display: flex;
+ 	list-style: none;
+ 	margin-top: 20px;
+ 	margin-left: -30px;
+ }
+
+ .nav-element a {
+ 	margin: 0px calc(20px + 1vw) 0 calc(20px + 1vw);
+ 	color: white;
+ 	font-family: bebas_neuebold;
+ 	font-size: calc(15px + 1vw)
+ }
+
+ .nav-element a:hover {
+ 	color: white;
+ }

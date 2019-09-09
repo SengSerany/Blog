@@ -1,0 +1,57 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.hero {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.img-hero{
+	max-width: 100%;
+	min-height: 500px;
+}
+
+.title-home h1 {
+	color: black;
+	background-color: white;
+	font-family: 'bebas_neuebold';
+	font-size: calc(30px + 1vw);
+	position: absolute;
+	top: calc(250px + 10vw);
+	text-align: center;
+	border: 10px solid black;
+	padding: 10px;
+	z-index: 1;
+	margin-left: calc(-15px + 3vw);
+}
+
+ .intro {
+ 	position: absolute;
+	top: calc(450px + 5vw);
+    height: 270px;
+    
+ }
+
+.dark-box {
+	background-color: black;
+	border-radius: 3px;
+    color: white;
+    font-family: Butler Stencil;
+    text-align: center;
+    padding-top: 70px;
+  	padding-left: -25px;
+    padding-right: -25px;
+	z-index: 0;
+ }
+
+.dark-box h2 {
+	font-family: Butler Stencil L;
+	font-size: 36px;
+ }
