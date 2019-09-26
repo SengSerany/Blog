@@ -1,0 +1,198 @@
+// Place all the styles related to the Projet1 controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.img-moodboard {
+	position: relative;
+}
+
+.text-moodboard {
+	position: absolute;
+	top: 500px;
+}
+
+.moodboard h1 {
+	font-family: bebas_neuebold;
+	font-size: calc(66px + 2vw);
+	color: #EA1C00;
+	text-shadow: 5px 0 0 white;
+}
+
+.text-moodboard {
+	font-family: Butler Stencil;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 0.5px 0 0 white;
+}
+
+.container h2 {
+	font-family: bebas_neuebold;
+	font-size: 40px;
+	color: #EA1C00;
+}
+
+.part1 {
+
+}
+
+.p-1 {
+	border: 5px solid #EA1C00;
+	border-radius: 0px 45px;
+	position: absolute;
+	top: -650px;
+	background-color: white;
+}
+
+.p-1-text {
+	padding-left: 5px;
+}
+
+.p-1-text strong {
+	color: #3862A0;
+}
+
+.img-part1 {
+	position: relative;
+	margin-top: 150px;
+}
+
+.part2 {
+	margin-top: 50px;
+}
+
+.p-2 {
+	border: 5px solid #EA1C00;
+	border-radius: 0px 45px;
+	position: absolute;
+	top: -1000px;
+	background-color: white;
+}
+
+.p-2-text strong {
+	color: #3862A0;
+}
+
+
+.img-part2 {
+	margin-top: 50px;
+}
+
+.part3-all {
+	background-color: #e5e5e5;
+	padding-top: 70px;
+}
+
+.p-3 {
+	border: 5px solid #EA1C00;
+	border-radius: 0px 45px;
+	background-color: white;
+	position: absolute;
+	top: -220px;
+}
+
+.p-3-text strong {
+	color: #3862A0;
+}
+
+@media screen and (max-width: 990px) and (min-width: 771px){
+
+	.text-moodboard {
+		top: 300px;
+	}
+
+	.p-1 {
+		top: -500px;
+	}
+
+	.p-2 {
+		top: -900px;
+	}
+
+	.img-part2 .img-text img{
+		margin-top: 150px;
+	}
+
+	.p-3 {
+		top: -250px;
+	}
+}
+
+@media screen and (max-width: 770px) and (min-width: 670px){
+		.text-moodboard {
+		top: 250px;
+	}
+
+	.p-1 {
+		top: -650px;
+	}
+
+	.p-2 {
+		top: -980px;
+	}
+
+	.img-part2 .img-text img{
+		margin-top: 150px;
+	}
+
+	.p-3 {
+		top: -110px;
+	}
+}
+
+@media screen and (max-width: 669px) and (min-width: 601px){
+		.text-moodboard {
+		top: 130px;
+	}
+
+	.p-1 {
+		top: -650px;
+	}
+
+	.p-2 {
+		top: -1000px;
+	}
+
+	.img-part2 {
+		margin-top: 180px;
+	}
+
+	.img-part2 .img-text img{
+		margin-top: 50px;
+	}
+
+	.p-3 {
+		top: -110px;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+		.text-moodboard {
+		top:300px;
+	}
+
+
+	.img-part1 .container{
+		margin-top: 650px;
+	}
+
+	.p-1 {
+		top: -720px;
+	}
+
+	.p-2 {
+		top: -900px;
+	}
+
+	.img-part2 {
+		margin-top: 250px;
+	}
+
+	.img-part2 .img-text img{
+		margin-top: 50px;
+	}
+
+	.p-3 {
+		top: -110px;
+	}
+}

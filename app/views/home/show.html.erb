@@ -1,3 +1,4 @@
+
 <div class="hero">
 	<%= image_tag "hero.jpg", class: "img-hero" %>
 </div>
@@ -5,18 +6,112 @@
 <div class="container">
 	<div class="row justify-content-center">
 		<div class="title-home col-6">
-			<h1>Test UX / UI design - Sérany SENG</h1>
+			<h1>Du graphisme à l'UX design -<br/>Sérany SENG</h1>
+		</div>
+	</div>
+	<div class="row justify-content-center">
+		<div class="intro d-flex justify-content-center dark-box">
+			<div class="col-12">
+				<h2 class="text-white">Every great design begins <br/> with an even better story.</h2>
+				<p>Lorinda Mamo, Designer / Creative Director </p>
+			</div>
 		</div>
 	</div>
 </div>
 
-<div class="container">
-	<div class="row justify-content-center">
-		<div class="intro d-flex justify-content-center">
-			<div class="col-11 dark-box">
-				<h2>Bienvenue sur mon site!</h2>
-				<p>Celui ci contient quelques présentations de projets UX / UI design <br/>sur lequel je travail ou ai travaillé. <br/>Vous verrez l'évolution des interfaces qui ont tous comme <br/>points de départ un ou plusieurs problématiques et que l'on tente, moi et mes collègues de résoudre ! </p>
+<div class="container d-flex justify-content-center">
+	<div class="vid-home">
+		<% @video.embed_html %>
+		<iframe src="http://www.youtube.com/embed/kHUGYx0Xhec" frameborder="0"></iframe>
+	</div>
+</div>
+<div class="container d-flex justify-content-center">
+	<div class="trait1"></div>
+</div>
+<div class="container d-flex justify-content-center">
+	<div class="trait2"></div>
+</div>
+<div class="project-board">
+	<div class="board">
+		<div class="text-white d-flex justify-content-center">
+			<h2 id="projet">Les projets</h2>
+		</div>
+		<div class="project d-flex justify-content-center">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-3 col-md-6 col-sm-8" >
+					<a href="<%= projet1_index_path %>" class="d-flex justify-content-center"><%= image_tag "eventlyon.png", class: "img-fluid" %></a>
+					<p class="text-white text-center">Design system <br/>& Wireframe</p>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-8" >
+					<a href="<%= projet2_index_path %>" class="d-flex justify-content-center"><%= image_tag "p2_chat.png", class: "img-fluid" %></a>
+					<p class="text-white text-center">Du Back et du Front</p>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-8" >
+					<a href="<%= projet3_index_path %>" class="d-flex justify-content-center"><%= image_tag "projet1.png", class: "img-fluid" %>
+					</a>
+					<p class="text-white text-center">Approche UX</p>
+				</div>
 			</div>
 		</div>
+		<div class="container d-flex justify-content-center">
+			<div id="propos" class="trait3"></div>
+		</div>
+		<div class="container">
+			<div class="propos">
+				<h2 class="title-propos">A propos</h2>
+				<div class="row">
+					<div class="cadre col-lg-4 col-md-6 col-sm-10">
+						<%= image_tag "portrait.jpg" %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="text-propos">
+		<div class="row d-flex justify-content-end">
+			<div class="col-lg-6 col-md-8 col-sm-12 text-white">
+				<h3>Le commencement</h3>
+					<p>En 2018, J'ai décidé de réaliser mes rêves. Vivre de se qui me passionnes et de mes créations. Après tout, est-ce vraiment vivre si les chemins qu'on emprunte nous indiffères?
+					</p><br/>
+
+					<h3>Du graphisme à L'UX design</h3>
+					<p>Du genre curieux et passionné, j'ai fais de la psychologie, de l'antropologie et de l'art plastique à l'université en complément à mon cursus de graphiste print. J'ai longtemps cherché à meler les trois sans jamais vraiment trouver quoi. Et ce jusqu'à la découverte de l'UX design.</p><br/>
+
+					<h3>De l'egocentrisme à l'user-centrisme</h3>
+					<p>Pour illustrer cela, mes projets en sont la parfaite image. Ne plus faire des choses uniquements pour le beau mais pour l'usage. Tel est le défi que j'ai du me confronter. Car comme un gateau, c'est bien si il est beau mais c'est mieux si il est bon.</p>
+
+					<div class="d-flex justify-content-end">
+						<em>En savoir plus?</em>
+					</div>
+					<div class="d-flex justify-content-end">
+						<%= link_to "Discutons !", contact_index_path, class: "btn btn-outline-info" %>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container d-flex justify-content-center">
+	<div class="software">
+		<h2 class="text-center text-black">Logiciels utilisés</h2>
+		<br/><br/>
+	<div class="row d-flex justify-content-center">
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "photoshop.png" %></div>
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "illustrator.png" %></div>
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "indesign.png" %></div>
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "premiere.png" %></div>
+		</div>
+
+		<div class="row d-flex justify-content-center">
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "xd.png" %></div>
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "invision.png" %></div>
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "figma.png" %></div>
+			<div class="col-lg-3 col-md-3 col-sm-4"><%= image_tag "sketch.png" %></div>
+		</div>
+	</div>
 	</div>
 </div>

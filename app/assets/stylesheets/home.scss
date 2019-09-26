@@ -18,25 +18,32 @@
 	min-height: 500px;
 }
 
+.container .title-propos {
+	color: #423FFF;
+}
+
+.container .text-black {
+	color: black;
+}
+
 .title-home h1 {
 	color: black;
 	background-color: white;
 	font-family: 'bebas_neuebold';
-	font-size: calc(30px + 1vw);
+	font-size: calc(29px + 1vw);
 	position: absolute;
 	top: calc(250px + 10vw);
 	text-align: center;
 	border: 10px solid black;
 	padding: 10px;
 	z-index: 1;
-	margin-left: calc(-15px + 3vw);
 }
 
  .intro {
  	position: absolute;
-	top: calc(450px + 5vw);
-    height: 270px;
-    
+	top: calc(435px + 5vw);
+    height: 250px;
+    margin-left: calc(0px + 7vw)
  }
 
 .dark-box {
@@ -45,7 +52,7 @@
     color: white;
     font-family: Butler Stencil;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 120px;
   	padding-left: -25px;
     padding-right: -25px;
 	z-index: 0;
@@ -53,5 +60,302 @@
 
 .dark-box h2 {
 	font-family: Butler Stencil L;
-	font-size: 36px;
+	font-size: 28px;
  }
+
+.vid-home {
+	position: absolute;
+	top: calc(760px + 5vw);
+}
+
+.vid-home iframe {
+	width: calc(399px + 17vw);
+	height: calc(128px + 17vw);
+}
+
+.project-board {
+	position: absolute;
+	top: calc(975px + 25vw);
+	width: 100%;
+}
+
+.board {
+	background-image: radial-gradient(circle, #150748, #240030, #23001d, #19000d, #000000);
+	height: 1600px;
+}
+
+.project-board svg {
+	margin-bottom: -10px;
+}
+
+.project-board  h2 {
+	padding-top: 100px;
+	margin-bottom: 30px;
+	font-family: 'bebas_neuebold';
+	font-size: calc(30px + 3vw);
+}
+.project {
+	margin-left: 100px;
+}
+
+.project img {
+	max-width: 200px;
+ 	border-radius: 50%;
+ 	-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+.project img:hover {
+ 	border-radius: 50%;
+ 	-webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  border: 2px solid #423FFF;
+
+}
+
+.project p {
+	font-family: Butler Stencil;
+	font-size: 20px;
+	margin-left: -100px; 
+	margin-bottom: -15px;
+}
+
+ .propos {
+ 	position: absolute;
+ 	height: 700px;
+ 	top: 650px;
+ }
+
+  .propos h2 {
+  	font-family: bebas_neuebold;
+  	color: #423FFF;
+  	font-size: calc(26px + 2vw);
+  	margin-bottom: 20px;
+}
+
+.propos img {
+	height: 600px;
+}
+
+.trait1 {
+	background-image: radial-gradient(circle, #ffffff, #d3cfe5, #a9a0cb, #8272b0, #5b4794, #483384, #352075, #1f0c65, #1c0b5e, #1a0a56, #17084f, #150748);
+	height: 3px;
+	width: calc(350px + 25vw);
+	position: absolute;
+ 	top: calc(990px + 30vw);
+ 	z-index: 5;
+}
+
+.trait2 {
+	background-image: radial-gradient(circle, #ffffff, #d3cfe5, #a9a0cb, #8272b0, #5b4794, #483384, #352075, #1f0c65, #1c0b5e, #1a0a56, #17084f, #150748);
+	height: 3px;
+	width: calc(350px + 25vw);
+	position: absolute;
+ 	top: calc(1100px + 30vw);
+ 	z-index: 5;
+}
+
+.trait3 {
+	background-image: radial-gradient(circle, #ffffff, #d3cfe5, #a9a0cb, #8272b0, #5b4794, #483384, #352075, #1f0c65, #1c0b5e, #1a0a56, #17084f, #150748);
+	height: 3px;
+	width: calc(350px + 25vw);
+	position: absolute;
+	top: 650px;
+ 	z-index: 5;
+}
+
+
+.text-propos {
+	position: absolute;
+	top: 2150px;
+	margin-right: 180px;
+}
+
+.text-propos h3 {
+	font-family: bebas_neuebold;
+	font-size: 32px;
+}
+
+.text-propos p {
+	font-family: afta_serif;
+	font-size: 16px;
+	text-shadow: 0.5px 0 0 white;
+}
+
+.text-propos em {
+	font-size: 12px;
+}
+
+.software {
+	position: absolute;
+	top: 3000px;
+	margin-left: -10px;
+}
+
+.software img {
+	margin: 10px;
+}
+
+.software h2 {
+	font-family: bebas_neuebold;
+	font-size: calc(26px + 2vw);
+	color: black;
+	border: 10px solid black;
+}
+
+@media screen and (max-width: 640px) {
+	.intro {
+		margin-left: 0px;
+	}
+
+  .trait1 {
+    top: 1100px;
+ }
+  .trait3 {
+    top: 1150px;
+ }
+  .propos {
+ 	top: 1120px;
+ }
+ .board {
+	height: 2150px;
+	}
+
+	.cadre {
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.propos img {
+	width: auto;
+	}
+
+	.text-propos {
+		top: 2730px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.text-propos h3 {
+		font-size: 22px;
+	}
+
+	.text-propos p {
+		font-size: 12px;
+		text-shadow: 0.5px 0 0 white;
+	}
+
+	.software {
+	top: 3350px;
+	margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 640px){
+	.intro {
+		margin-left: 0px;
+	}
+
+  .trait1 {
+    top: 1190px;
+  }
+    .trait3 {
+    top: 1180px;
+  }
+  .propos {
+ 	top: 1160px;
+ }
+  .board {
+	height: 2050px;
+	}
+
+	.propos img {
+	height: 400px;
+	}
+
+	.cadre {
+		margin-top: 50px;
+	}
+
+	.text-propos {
+		position: absolute;
+		top: 2490px;
+		margin-right: 60px;
+		margin-left: 280px;
+	}
+
+	.text-propos h3 {
+		font-size: 22px;
+	}
+
+	.text-propos p {
+		font-size: 12px;
+		text-shadow: 0.5px 0 0 white;
+	}
+
+	.software {
+	top: 3250px;
+	}
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+	.intro {
+		margin-left: 5px;
+		margin-top: 10px;
+	}
+
+ 	.trait3 {
+    	top: 920px;
+ 	}
+
+   .propos {
+ 		top: 900px;
+ 	}
+
+ 	.board {
+		height: 1800px;
+	}
+
+	.propos img {
+		margin-top: 120px;
+		height: 400px;
+	}
+
+
+	.text-propos {
+		position: absolute;
+		top: 2280px;
+		margin-right: 110px;
+		margin-left: 40px;
+	}
+
+	.text-propos h3 {
+		font-size: 26px;
+	}
+
+	.text-propos p {
+		font-size: 16px;
+		text-shadow: 0.5px 0 0 white;
+	}
+
+	.software {
+	position: absolute;
+	top: 3100px;
+	margin-left: -10px;
+}
+
+}
+
+
+  /*
+  color: 
+
+  #DA33FF
+  #7C2EE8
+  #423FFF
+  #2E73E8
+  #2ECCFF*/

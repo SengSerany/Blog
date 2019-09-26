@@ -1,0 +1,28 @@
+// Place all the styles related to the Contact controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.contact-page {
+	background-image: radial-gradient(circle, #150748, #240030, #23001d, #19000d, #000000);
+	color: white;
+	height: 500px;
+}
+.email-box {
+	border: 10px solid radial-gradient(circle, #ffffff, #d3cfe5, #a9a0cb, #8272b0, #5b4794, #483384, #352075, #1f0c65, #1c0b5e, #1a0a56, #17084f, #150748);
+	height: 200px;
+}
+
+.text-box {
+	font-family: bebas_neuebold;
+	font-size: 30px;
+	height: 162px;
+	line-height: 30px;
+	margin: 8px 0 0 0;
+
+}
+
+#title {
+	font-family: bebas_neuebold;
+	font-size: 64px;
+	margin-top: 40px;
+}
